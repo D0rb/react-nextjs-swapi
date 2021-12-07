@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+@media screen and (max-width: 1200px) {
+  body { 
+      width: 100%;
+      background-color: rgb(129, 29, 29);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  body {
+      width: 30%;
+      background-color: rgb(29, 129, 37);
+  }
+}
+@media screen and (width: 480px) {
+  body {
+      color: red;
+  }
+}
+@media screen and (width: 1200px) {
+  body {
+      color: red;
+  }
+}
+@media screen and (width: 600px) {
+  body {
+      color: red;
+  }
+}
+
+body {
+  background: #000000;
+  color: rgb(0, 0, 0);
+  font-family: "Nunito";
+}
+
+ /* Split the screen in half */
+ .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.startext {
+  color: rgb(0, 0, 0);
+  font-family: "Nunito";
+}
+/* Control the left side */
+.left {
+  left: -1;
+  width: 32%;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right{
+  right: 0;
+  width: 70%;
+  background-color: rgb(167, 185, 0);
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+.left-1 {
+  left: 0;
+  background-color: #111;
+  height: 100%;
+  width: 70%;
+  overflow: auto;
+  float: left;
+  position: relative;
+  margin-left: -5px;
+}
+.button {
+  background-color: #d9ff00;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  height: 120px;
+  width:120px;
+  border-radius: 12px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
