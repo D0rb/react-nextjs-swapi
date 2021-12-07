@@ -1,34 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-@media screen and (max-width: 1200px) {
-  body { 
-      width: 100%;
-      background-color: rgb(129, 29, 29);
-  }
-}
-
-@media screen and (min-width: 480px) {
-  body {
-      width: 30%;
-      background-color: rgb(29, 129, 37);
-  }
-}
-@media screen and (width: 480px) {
-  body {
-      color: red;
-  }
-}
-@media screen and (width: 1200px) {
-  body {
-      color: red;
-  }
-}
-@media screen and (width: 600px) {
-  body {
-      color: red;
-  }
-}
-
 body {
   background: #000000;
   color: rgb(0, 0, 0);
